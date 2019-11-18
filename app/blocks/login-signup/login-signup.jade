@@ -1,0 +1,66 @@
+.signup
+	.signup__wrapper
+		.sidebar
+			span Sign up
+		.signup__content
+			h1.title New user?
+			b.title-addition Use the form below to create your account
+			form.form(method="post")
+				.input-block
+					label.input-block__name(for="firstName") First Name
+					input.input-block__input(id="firstName" placeholder="Alice" type="text")
+				.input-block
+					label.input-block__name(for="lastName") Last Name
+					input.input-block__input(id="lastName" placeholder="Miller" type="text")
+				.input-block.input-select
+					label.input-block__name(for="nation") Nationality
+					select(id="nation" name="nationality")
+						option(value="American") American
+						option(value="Russian") Russian
+						option(value="Chinese") Chinese
+				.input-block
+					label.input-block__name(for="email") E-mail
+					input.input-block__input(id="email" placeholder="alice.miller@yahoo.com" type="email")
+					span.mail-decoration
+				.input-block
+					label.input-block__name(for="birthday") Date of Birth
+					.input-block__selects
+						select(id="birthday" name="birthDay")
+							option(value="1") 1
+							option(value="2") 2
+							option(value="3") 3
+							option(value="4") 4
+							option(value="21" selected) 21
+						.select-decoration
+						select( name="birthMonth")
+							option(value="January") January
+							option(value="February") February
+							option(value="March") March
+							option(value="April") April
+							option(value="December" selected) December
+						.select-decoration
+						select( name="birthYear")
+							option(value="1991") 1991
+							option(value="1992") 1992
+							option(value="1993") 1993
+							option(value="1994") 1994
+							option(value="1995" selected) 1995
+						.select-decoration
+				.input-block
+					label.input-block__name Gender
+					.input-block__radio
+						input.input-block__input(id="male" name="gender" placeholder="Male" type="radio")
+						label.input-block__name(for="Male") Male
+						input.input-block__input(id="female" name="gender" placeholder="Female" type="radio" checked)
+						label.input-block__name(for="Female") Female
+				.input-block
+					label.input-block__name(for="password") Password
+					input.input-block__input(id="password"  type="password")
+				.input-block
+					label.input-block__name(for="confirmPassword") Confirm Password
+					input.input-block__input(id="confirmPassword"  type="password")
+				.input-block__bottom
+					.user-block
+						span.user-block__question Have an account?
+						a.user-block__link Login
+					input.input-block__button(type="submit" value="Complete Signup")

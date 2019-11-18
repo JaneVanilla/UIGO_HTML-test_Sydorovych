@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="imagetoolbar" content="no">
+		<meta name="msthemecompatible" content="no">
+		<meta name="cleartype" content="on">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="format-detection" content="address=no">
+		<meta name="google" value="notranslate">
+		<meta name="theme-color" content="#ffffff">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link sizes="57x57" href="/apple-touch-icon-57x57.png" rel="apple-touch-icon">
+		<link sizes="114x114" href="/apple-touch-icon-114x114.png" rel="apple-touch-icon">
+		<link sizes="72x72" href="/apple-touch-icon-72x72.png" rel="apple-touch-icon">
+		<link sizes="144x144" href="/apple-touch-icon-144x144.png" rel="apple-touch-icon">
+		<link sizes="60x60" href="/apple-touch-icon-60x60.png" rel="apple-touch-icon">
+		<link sizes="120x120" href="/apple-touch-icon-120x120.png" rel="apple-touch-icon">
+		<link sizes="76x76" href="/apple-touch-icon-76x76.png" rel="apple-touch-icon">
+		<link sizes="152x152" href="/apple-touch-icon-152x152.png" rel="apple-touch-icon">
+		<link sizes="180x180" href="/apple-touch-icon-180x180.png" rel="apple-touch-icon">
+		<link sizes="192x192" href="/favicon-192x192.png" rel="icon" type="image/png">
+		<link sizes="160x160" href="/favicon-160x160.png" rel="icon" type="image/png">
+		<link sizes="96x96" href="/favicon-96x96.png" rel="icon" type="image/png">
+		<link sizes="16x16" href="/favicon-16x16.png" rel="icon" type="image/png">
+		<link sizes="32x32" href="/favicon-32x32.png" rel="icon" type="image/png">
+		<link rel="manifest" href="/manifest.json">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|Work+Sans:300,400,500&amp;display=swap"
+		 rel="stylesheet">
+		<meta name="application-name" content="">
+		<meta name="msapplication-tooltip" content="">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/mstile-large.png">
+		<meta name="msapplication-starturl" content="https://csssr.github.io/csssr-project-template/">
+		<meta name="msapplication-tap-highlight" content="no">
+		<meta name="msapplication-square70x70logo" content="/mstile-small.png">
+		<meta name="msapplication-square150x150logo" content="/mstile-medium.png">
+		<meta name="msapplication-wide310x150logo" content="/mstile-wide.png">
+		<meta name="msapplication-square310x310logo" content="/mstile-large.png">
+		<title>CSSSR Project Template</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<link href="assets/styles/app.min.css" rel="stylesheet">
+	</head>
+	<div class="signup">
+		<div class="signup__wrapper">
+			<div class="sidebar"><span>Sign up</span></div>
+			<div class="signup__content">
+				<h1 class="title">New user?</h1><b class="title-addition">Use the form below to create your account</b>
+				<form method="post" class="form">
+					<div class="input-block"><label for="firstName" class="input-block__name">First Name</label><input
+						 id="firstName" placeholder="Alice" type="text" class="input-block__input"></div>
+					<div class="input-block"><label for="lastName" class="input-block__name">Last Name</label><input
+						 id="lastName" placeholder="Miller" type="text" class="input-block__input"></div>
+					<div class="input-block input-select"><label for="nation"
+						 class="input-block__name">Nationality</label><select id="nation" name="nationality">
+							<option value="American">American</option>
+							<option value="Russian">Russian</option>
+							<option value="Chinese">Chinese</option>
+						</select></div>
+					<div class="input-block"><label for="email" class="input-block__name">E-mail</label><input
+						 id="email" placeholder="alice.miller@yahoo.com" type="email" class="input-block__input"><span
+						 class="mail-decoration"></span></div>
+					<div class="input-block"><label for="birthday" class="input-block__name">Date of Birth</label>
+						<div class="input-block__selects"><select id="birthday" name="birthDay">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="21" selected>21</option>
+							</select>
+							<div class="select-decoration"></div><select name="birthMonth">
+								<option value="January">January</option>
+								<option value="February">February</option>
+								<option value="March">March</option>
+								<option value="April">April</option>
+								<option value="December" selected>December</option>
+							</select>
+							<div class="select-decoration"></div><select name="birthYear">
+								<option value="1991">1991</option>
+								<option value="1992">1992</option>
+								<option value="1993">1993</option>
+								<option value="1994">1994</option>
+								<option value="1995" selected>1995</option>
+							</select>
+							<div class="select-decoration"></div>
+						</div>
+					</div>
+					<div class="input-block"><label class="input-block__name">Gender</label>
+						<div class="input-block__radio"><input id="male" name="gender" placeholder="Male" type="radio"
+							 class="input-block__input"><label for="Male" class="input-block__name">Male</label><input
+							 id="female" name="gender" placeholder="Female" type="radio" checked
+							 class="input-block__input"><label for="Female" class="input-block__name">Female</label>
+						</div>
+					</div>
+					<div class="input-block"><label for="password" class="input-block__name">Password</label><input
+						 id="password" type="password" class="input-block__input"></div>
+					<div class="input-block"><label for="confirmPassword" class="input-block__name">Confirm
+							Password</label><input id="confirmPassword" type="password" class="input-block__input">
+					</div>
+					<div class="input-block__bottom">
+						<div class="user-block"><span class="user-block__question">Have an account?</span><a
+							 class="user-block__link">Login</a></div><input type="submit" value="Complete Signup"
+						 class="input-block__button">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<body class="page">
+		<script src="/assets/scripts/app.min.js"></script>
+	</body>
+
+</html>
